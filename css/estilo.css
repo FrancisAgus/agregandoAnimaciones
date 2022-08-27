@@ -1,0 +1,185 @@
+/*GENERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+border: border-box;
+}
+html {
+	font-size: 62.5%;
+	width: 100%;
+}
+
+
+li{
+	list-style: none;
+	font-size: 3rem;
+	color: white;
+	font-style: italic;
+		}
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+a{
+	text-decoration: none;
+}
+.logo--instagram{
+	padding: 1rem;
+}
+.logo--mail{
+	padding: 1rem;
+}
+.sticky{
+	position: sticky;
+	top: 0;
+}
+.alinear{
+	text-align: center;
+}
+.header--color{
+	background-color: darkgreen;
+}
+.bgColor{
+	background-color: lightgreen;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* IMAGEN RESPONSIVE*/ 
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*INDEX*/
+
+.edicion--texto{
+	color: mediumvioletred;
+}
+.index--fondo{
+	background-image: url("../assets/img/psico-fondo.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.imagen--index{
+	padding: 5rem;
+	display: flex;
+	flex-direction: row;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+	
+}
+.cuerpo--titulo--centrado{
+	font-size: 7rem;
+	text-align: center;
+	text-decoration: underline;
+	font-style: oblique;
+	font-family: 'Cinzel', serif;
+	padding: 5rem;
+}
+.cuerpo--texto--centrado{
+	font-size: 7rem;
+	text-align: center;
+	color: darkblue;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	padding: 5rem;
+}
+
+.border{
+ border-style: solid;
+ border-color: black;
+ }
+
+
+/*MATERIALES*/
+.orden--main{
+	display: inline;
+	padding: 5rem;
+}
+.cuerpo--titulo--desplazado{
+	font-size: 5rem;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: underline;
+	font-style: oblique;
+	font-family: 'Cinzel', serif;
+	padding: 5rem;
+}
+.cuerpo--texto--desplazado{
+	font-size: 3rem;
+	text-align: left;
+	color: black;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	padding: 5rem;
+	background-color: lightgreen;
+	border-style: solid;
+	margin: 2rem;
+}
+.materiales--fondo{
+	background-image: url("../assets/img/fondo-materiales.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.imagen--materiales{
+	height: 30rem;
+	width: 60rem;
+}
+
+/*CONTACTO*/
+.separar{
+	padding: 5rem;
+	margin: 2rem;
+}
+.contacto--fondo{
+	background-image: url("../assets/img/fondo-contacto.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.boton{
+	width: 10rem; 
+	height: 5rem;
+	margin: 2rem;
+}
+.texto--contacto{
+	font-size: 7rem;
+	text-align: left;
+	color: black;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	padding: 5rem;
+}
+
+/* Leyes-utiles */
+.leyes--fondo{
+	background-image: url("../assets/img/fondo-leyes.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/* Sobre-nosotros*/
+.nosotros--fondo{
+	background-image: url("../assets/img/fondo-nosotros.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.ordenarContenidoNosotros{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}

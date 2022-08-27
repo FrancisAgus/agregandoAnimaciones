@@ -1,0 +1,170 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+border: border-box;
+}
+html {
+	font-size: 62.5%;
+	width: 100%;
+}
+
+li{
+	list-style: none;
+	font-size: 3rem;
+	color: white;
+	font-style: italic;
+	padding: 3rem;
+	}
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.logo--instagram{
+	padding: 1rem;
+}
+.alinear{
+	text-align: center;
+}
+.bgColor{
+	background-color: lightgreen;
+}
+.achicar{
+	height: 50%;
+	width: 50%;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* IMAGEN RESPONSIVE*/ 
+img{
+	max-width: 100%;
+	height: auto;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.logo--instagram{
+	cursor: pointer;
+	transition: all 1s;
+}
+.logo--instagram:hover{
+	transform: translateY(-10px);
+}
+
+/* INDEX */
+.index--fondo{
+	background-image: url("../assets/img/psico-fondo.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.imagen--index{
+	padding: 5rem;
+	display: flex;
+	flex-direction: row;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+	}
+.border{
+ border-style: solid;
+ border-color: black;
+ }
+.titulo--centro{
+	font-size: 5rem;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+	font-style: oblique;
+	font-family: 'Cinzel', serif;
+	}
+.cuerpo--centro{
+	font-size: 3rem;
+	text-align: left;
+	color: black;
+	font-family: 'Vollkorn', serif;
+	padding: 5rem;
+	background-color: lightgreen;
+	border-style: solid;
+	margin: 2rem;
+}
+
+/*MATERIALES*/
+.materiales--fondo{
+	background-image: url("../assets/img/fondo-materiales.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.titulo--centro--bl{
+	font-size: 5rem;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: underline;
+	font-style: oblique;
+	font-family: 'Cinzel', serif;
+}
+.primerGrid{
+	padding: 5rem;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto ;
+	grid-template-areas: 
+	"img1 texto1"
+	"img2 texto2"
+}
+.img1{
+	grid-area: img1;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	border: solid;
+ 	border-color: black;
+}
+.texto1{
+	grid-area: texto1;
+	font-size: 3rem;
+	text-align: left;
+	color: black;
+	font-family: 'Vollkorn', serif;
+	padding: 5rem;
+	background-color: lightgreen;
+	border-style: solid;
+	margin: 2rem;
+
+}
+.img2{
+	grid-area: img2;
+	width: 50%;
+}
+.texto2{
+	grid-area: texto2;
+	font-size: 3rem;
+	text-align: left;
+	color: black;
+	font-family: 'Vollkorn', serif;
+	padding: 5rem;
+	background-color: lightgreen;
+	border-style: solid;
+	margin: 2rem;
+}
+
