@@ -167,8 +167,8 @@ footer{
 
 /*MEDIAQUERIE INDEX*/
 @media only screen and (max-width: 768px){
-	li{padding: 1rem;}
-	ul{padding: 0rem;}
+	li{padding: 1rem; background: none; border-style: none;}
+	ul{padding: 0rem; border-style: none;}
 	/*.gridBody{
 		display: flex;
 		flex-direction: column;
